@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <!-- Bootstrap CSS -->
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-      <title>Hello, world!</title>
+      <title>Give</title>
       <style>
          .outer {
          display: table;
@@ -114,7 +114,7 @@
                
                ?>
                ");
-               var test = '<?php echo $riga; ?>';
+               var test = '<?php echo $list[$riga]; ?>';
                document.getElementById('generated').placeholder = test;
                document.getElementById('generated').setAttribute('data-clipboard-text', test);
                <?php unset($riga); ?>
@@ -135,7 +135,7 @@
                               Titolo</h5>
                               <hr width="50%" color="#FFFFFF">
                               <p class="card-text">
-                                 <input class="form-control text-center" id="generated" style="background-color: #db7c78;" type="text" placeholder="saa" data-clipboard-text="ciao" onclick="copy(); " readonly>
+                                 <input class="form-control text-center" id="generated" style="background-color: #db7c78;" type="text" placeholder="" data-clipboard-text="-" onclick="copy(); " readonly>
                                     <div class="row">
                                         <div class="col-sm-3"></div>
                                         <div class="col-sm-6 text-center"><span id="copyMessage"></span><button type="button" onclick="generateResult(); showCopyMessage();" class="btn btn-light">Genera</button>
