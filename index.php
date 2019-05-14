@@ -84,7 +84,7 @@
       </style>
       <script>
           function showCopyMessage(){
-            document.getElementById('copyMessage').innerHTML = '<i>Clicca sul box con il dato generato per copiarlo.</i><br /><br />';
+            document.getElementById('copyMessage').innerHTML = '<i>Click on the box with the data generated to copy it.</i><br /><br />';
           }
 
           function copy(){
@@ -132,13 +132,13 @@
                         <div class="card text-white bg-danger mb-3">
                            <div class="card-body">
                               <h2 class="card-title text-center">
-                              Titolo</h5>
+                              FORTNITE GENERATOR</h5>
                               <hr width="50%" color="#FFFFFF">
                               <p class="card-text">
                                  <input class="form-control text-center" id="generated" style="background-color: #db7c78;" type="text" placeholder="" data-clipboard-text="-" onclick="copy(); " readonly>
                                     <div class="row">
                                         <div class="col-sm-3"></div>
-                                        <div class="col-sm-6 text-center"><span id="copyMessage"></span><button type="button" onclick="generateResult(); showCopyMessage();" class="btn btn-light">Genera</button>
+                                        <div class="col-sm-6 text-center"><span id="copyMessage"></span><button type="button" onclick="generateResult(); showCopyMessage();" class="btn btn-light">GENERATE</button>
                                         </div>
                                     </div>
                            </div>
