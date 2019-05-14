@@ -138,7 +138,7 @@
                                  <input class="form-control text-center" id="generated" style="background-color: #db7c78;" type="text" placeholder="" data-clipboard-text="-" onclick="copy(); " readonly>
                                     <div class="row">
                                         <div class="col-sm-3"></div>
-                                        <div class="col-sm-6 text-center"><span id="copyMessage"></span><button type="button" onclick="generateResult(); showCopyMessage();" class="btn btn-light">GENERATE</button>
+                                        <div class="col-sm-6 text-center"><span id="copyMessage"></span><button type="button" onclick="generateResult(); showCopyMessage();" class="btn btn-light">Genera</button>
                                         </div>
                                     </div>
                            </div>
